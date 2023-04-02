@@ -1,0 +1,262 @@
+body {
+    background-color: #E5E5E5;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20%;
+    padding-top: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 15px;
+}
+
+.logo {
+    width: 98px;
+    height: 33px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #95E1D3;
+}
+
+.About {
+    border-bottom: 3px solid;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+.nav_links a {
+    font-family: 'Montserrat', sans-serif;
+    color: #95E1D3;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.one h4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+
+}
+
+.one h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    font-variant: all-small-caps;
+    color: #333333;
+}
+
+.line {
+    width: 60px;
+    height: 4px;
+    background-color: #F38181;
+}
+
+
+.three ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;  
+    align-items: center;
+    justify-content: center;
+}
+.three li {
+    padding: 150px; 
+    padding-top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    font-variant: small-caps;
+    color: #333333;
+}
+
+
+.four h4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+
+    font-family: 'Kaushan Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #333333;
+}
+
+.four h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    font-variant: all-small-caps;
+    color: #333333;
+}
+
+
+.four hr {
+    width: 60px;
+    height: 4px;
+    background-color: #F38181;
+}
+
+.div_container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.div_container {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #B6B6B6;
+}
+
+.five ul {
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+}
+
+.five li {
+    padding: 20px;
+}
+
+.five h4 {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-variant: all-small-caps;
+    color: #333333;
+}
+
+.five h5 {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #B6B6B6;
+
+
+}
+
+.footer hr {
+    width: 1200px;
+    height: 1px;
+    border: 1px solid #B6B6B6;
+    background-color: #333333;
+}
+
+
+.tetx_in_footer {
+    color:#F38181;
+}
+
+.footer p {
+     margin-left: 350px; 
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.footer input {
+    width: 230px;
+    height: 39px;   
+    border: 1px solid #B6B6B6;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #B6B6B6;
+}
+
+.footer button {
+    width: 230px;
+    height: 39px;   
+    background: #95E1D3;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.footer button:hover {
+    cursor: pointer;
+}
+
+.form {
+    display: flex;
+    justify-content: end;
+    margin-right: 350px;
+}
